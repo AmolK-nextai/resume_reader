@@ -4,8 +4,8 @@ import openpyxl
 import re
 
 # Directory path containing PDF files
-pdf_directory = 'C:/Users/Admin/Documents/project/nexai_scraper/resume'
-excel_file_path = 'extracted_data.xlsx'
+pdf_directory = 'C:/Users/Admin/Documents/project/resume_reader/resume'
+excel_file_path = 'Candidate_details.xlsx'
 
 # Create or load the Excel workbook and select the active sheet
 if os.path.exists(excel_file_path):
